@@ -1,0 +1,100 @@
+/* Centralizar os titulos */
+nav ul{
+    list-style: none;
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+    font-size: 19px;
+}
+
+nav ul li{
+    display:inline;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+ /* Centraliza toda palavra usada com h1 */
+h1{
+    text-align: center;
+    Color: black;
+    font-size:  50px;
+    background-color: rgba(15, 111, 175, 0.459);
+    border: 3px solid white;
+    border-radius: 15px;
+
+}
+
+p{
+    text-align: center;
+    Color: rgb(255, 255, 255);
+    font-size:  25px;
+    
+    
+}
+/* Troca de cor de todo o site */
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(133,199,251,1) 0%, rgba(133,186,244,1) 36%, rgb(38, 109, 167) 100%);
+}
+
+nav {
+    margin: 20px 0;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(133,186,244,1);
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+/* Centraliza o formulario e deixa-o mais bonito */
+.section {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #000000;
+    padding-bottom: 10px;
+    
+}
+
+form div {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(133,186,244,1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: rgb(133,186,244,1);
+}
+
